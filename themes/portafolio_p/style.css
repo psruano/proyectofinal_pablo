@@ -1,0 +1,755 @@
+/*
+Theme Name: portafolio_p
+*/
+
+/*** CLEARFLIX ***/
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+body{
+	
+	background-color: #EBEBEB;
+	width: 100%;
+	padding: 0 none;
+	margin: 0 auto;
+
+}
+
+#wrapper {
+
+	padding: 0;
+	font-family: 'Courier';
+	color: #F0F0F0; /*#F0F0F0*/
+	background-color: transparent; 
+	margin: 0px auto;
+	max-width: 1000px;
+	min-width: 320px;
+}
+
+#header{
+	min-width: 320px;
+	max-width: 1000px;
+	background-color: #EBEBEB;
+	margin: 0 auto;
+	width: 100%;
+	height: 200px;
+	border-top: 7px solid; color: #181819;
+
+}
+
+#logos{
+
+}
+
+#circulos_l{
+	float: left;
+	position: absolute;
+	width: 80%;
+
+
+
+}
+
+#logos canvas{
+	float: left;
+	position: absolute;
+	width: 130px;
+	height: 130px;
+	margin-left: 10px;
+
+
+
+
+}
+
+#circulos img{
+		display: none;
+	float: left;
+	position: absolute;
+	width: 300px;
+	margin: 0px 0px 0px 20px;
+
+
+}
+
+
+#letra a{
+	float:right;
+	display: block;
+	background-image: url(images/head2.png); 
+		width: 123px;
+	height: 123px;
+
+	
+}
+
+/*
+.animated #static, .static #animated {
+    display: none;
+}
+.animated #animated, .static #static {
+    display: inline;
+}
+*/
+
+
+#nav {
+
+
+
+max-width: 1000px;
+min-width: 320px;
+float: left;
+	font-size: 12px;
+	letter-spacing: 0px;
+	margin: 10px 0px 10px 0px;
+	width: 100%;
+	height: 40px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+
+#infocontacto {
+
+	font-size: 9px;
+	float: right;
+	margin: 5px 20px 0px 10px;
+}
+
+#nav ul {
+		width: 600px;
+		padding: 0px;
+		list-style: none;
+		margin-left: 10px;
+
+	}
+
+	#nav ul li{
+
+		text-align: center;
+		vertical-align: center;
+		color: #181819;
+		float: left;
+		display: block;
+		margin: 0px 20px 0px 0px; 
+		list-style: none;
+		text-decoration: none;
+	}
+
+
+
+	#nav a:hover {
+	color:#E8E8E8;
+	text-decoration: none;
+
+	}
+
+	#nav a:visited{
+	color: #181819;
+	text-decoration: none;
+	}
+
+	#contenido{
+
+		margin: 50px 0px;
+		background-color: #EBEBEB;
+		max-width: 1000px;
+		min-width: 320px;
+		float: left;
+		width: 100%;
+		padding-bottom: 30px;
+	}
+
+	.nombrecat{
+
+		max-width: 1000px;
+min-width: 320px;
+	font-size: 13px;
+	letter-spacing: 0px;
+	margin: 10px 0px 0px 0px;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	
+	border-bottom: 1px solid;
+	color: #181819;
+
+	}
+
+	.proyecto{
+		min-width: 320px;
+		margin: 30px 0px 0px 0px;
+		width: 100%;
+		height: 100px;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.txtproyecto{
+
+		text-decoration: none;
+		padding-top: 45px;
+		padding-left: 20px;
+		background-image: url(images/bloquetransp.png);
+		font-size: 11px;
+		margin: 0px 0px 0px 0px;
+		width: 300px;
+		height: 205px;
+		position: absolute;
+		overflow: hidden;
+		left: 0px;
+
+}
+
+	#txtproyecto a{
+	color: #fff;
+	text-decoration: none;
+	}
+
+	#txtproyecto a:visited{
+	color: #fff;
+	text-decoration: none;
+	}
+
+
+
+	.txtproyecto p{
+		text-decoration: none;
+		color: #fff;
+		margin-top: 25px;
+	}
+
+.txtproyecto h3{
+		color: #fff;
+		text-decoration: none;
+		font-size: 14px;
+		margin: 0px 0px 0px 0px;
+		padding: 0px;
+		letter-spacing: 3px;
+	}
+
+	.imgproyecto{
+		width: 100%;
+		height: 210px;
+		float: left;
+		position: absolute;
+		width: 100%;
+
+	}
+
+	.blurtranspmin{
+		float: right;
+		width: 300px;
+		height: 100px;
+		position: relative;
+		left: 0px;
+		position: absolute;
+		overflow: hidden;
+
+		-webkit-filter: blur(1px);
+	}
+
+	.proyectomin{
+		min-width: 320px;
+		margin: 30px 0px 0px 0px;
+		width: 100%;
+		height: 100px;
+		position: relative;
+	}
+
+	.txtproyectomin{
+
+		padding-left: 20px;
+		padding-top: 15px;
+		background-image: url(images/bloquetransp.png);
+		font-size: 11px;
+		margin: 0px 0px 0px 0px;
+		width: 300px;
+		height: 85px;
+		position: absolute;
+		overflow: hidden;
+
+	}
+
+
+	.imgproyectomin{
+		float: left;
+		position: absolute;
+		width: 100%;
+
+	}
+
+	#footer{
+		
+		background-color: #EBEBEB;
+		margin: 0px auto;
+		max-width: 1000px;
+		min-width: 320px;
+		height: 100px;
+		
+	}
+
+	#footerinfo{
+
+		float: left;
+		color: #181819;
+		font-family: 'Courier';
+		font-size: 9px;
+		margin: 40px 20px 0px;
+
+	}
+
+	#footerinfo a:hover {
+	color:#181819;
+
+	}
+
+	#footerinfo a:visited{
+	color: #181819;
+	}
+	
+
+
+	#cc{
+		float: left;
+		
+		margin: 30px 20px 0px;
+
+	}
+
+	#contenidoproyecto{
+
+background-color: #EBEBEB;
+margin: 50px 0px 50px 0px; 
+padding-top: 30px;
+width: 100%;
+height: auto;
+	}
+
+	#slider{
+width: 58%;
+
+float: left;
+margin: 0px 0px 20px 20px;
+
+	}
+
+	#slider img{
+		width: 100%;
+		height: auto;
+		float: left;
+		min-width: 320px;
+		margin-bottom: 20px;
+	
+	}
+
+
+
+	#proyectoinfo{
+	width:33%;
+	min-width: 240px;
+
+		
+		color: #181819;
+		font-size: 11px;
+		margin: 0px 30px 0px 0px;
+float:right;
+
+}
+
+
+
+#infocontactofooter {
+
+	font-size: 9px;
+	float: right;
+	margin: 5px 20px 0px 10px;
+visibility: hidden;
+}
+
+	
+
+	/*//////////////////////////// MEDIA QUERIES tablet 
+	*/
+
+@media (max-width:768px){
+
+	#header{
+	min-width: 320px;
+	max-width: 1000px;
+	background-color: #EBEBEB;
+	margin: 0 auto;
+	width: 100%;
+	height: 170px;
+	border-top: 7px solid; color: #181819;
+
+}
+
+	#nav {
+
+
+
+max-width: 1000px;
+min-width: 320px;
+float: left;
+	font-size: 11px;
+	letter-spacing: 0px;
+	margin: 0px 0px 10px 0px;
+	width: 100%;
+	height: 40px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+
+#nav ul {
+		width: 600px;
+		padding: 0px;
+		list-style: none;
+		margin-left: 5px;
+
+	}
+
+#nav ul li{
+
+		text-align: center;
+		vertical-align: center;
+		color: #181819;
+		float: left;
+		display: block;
+		margin: 0px 10px 0px 0px; 
+		list-style: none;
+		text-decoration: none;
+	}
+
+
+
+#infocontacto {
+
+	font-size: 8px;
+	float: right;
+	margin: 2px 5px 0px 0px;
+	width: 110px;
+}
+
+
+#letra a{
+	float:right;
+	display: block;
+	background-image: url(images/head2.png); 
+
+		width: 105px;
+	height: 105px;
+	margin: -10px 20px 10px 0px;
+
+	position: none;
+
+
+	
+}
+
+#circulos{
+	float: left;
+	position: absolute;
+	width: 50%;
+
+
+
+
+}
+
+#circulos img{
+	float: left;
+	position: absolute;
+	height:100px;
+	width: auto;
+	margin: 0px 0px 0px 20px;
+
+
+
+}
+
+	#proyectoinfo{
+		width: 90%;
+		float: left;
+		margin: 0px 0px 40px 20px;
+		border-bottom: 1px solid; color:#181819;
+	}
+
+	#proyectoinfo p{
+		
+		margin: 0px 0px 30px 0px;
+
+		}
+
+
+
+	#slider{
+width: 100%;
+
+float: left;
+margin: 10px auto;
+
+
+	}
+
+	#slider img{
+		width: 100%;
+		height: auto;
+		float: left;
+		min-width: 310px
+	
+	}
+
+	#footerinfo{
+
+		float: left;
+		color: #181819;
+
+		font-family: 'Courier';
+		font-size: 9px;
+		margin: 20px 10px 0px;
+		width: 40%;
+}
+
+#cc{
+		float: left;
+		
+		margin: 20px 10px 0px;
+
+	}
+		#infocontactofooter {
+
+	font-size: 9px;
+	float: right;
+	margin: 5px 10px 0px 10px;
+	visibility: hidden;
+	width: 40%;
+}
+
+}
+/*///////////////////////////////// MEDIA QUERIES mobile */
+
+@media (max-width:400px){
+
+	#header{
+	min-width: 320px;
+	max-width: 1000px;
+	background-color: #EBEBEB;
+	margin: 0 auto;
+	width: 100%;
+	height: 200px;
+	border-top: 7px solid; color: #181819;
+
+}
+
+
+
+#logos{
+
+}
+
+#circulos{
+	float: none;
+	position: absolute;
+	width: 0%;
+	display: none;
+
+
+
+}
+
+#circulos img{
+
+	float: left;
+	position: absolute;
+	width: 300px;
+	margin: 0px 0px 0px 20px;
+	display: none;
+
+
+}
+
+#letra {
+	
+	position: none;
+	margin: 0 auto;
+	min-width: 50px;
+	min-height: 50px;
+
+	max-width: 80px;
+	max-height: 80px;
+
+	
+}
+
+#letra img{
+	
+	position: none;
+	margin: 0 auto;	
+	width: 100%;
+
+	
+}
+
+#letra a{
+
+	float:none;
+	display: block;
+	background-image: url(images/head2.png); 
+
+		width: 105px;
+	height: 105px;
+	margin: 0px 0px 29px 0px;
+
+	position: none;	
+}
+
+
+#nav {
+
+
+
+max-width: 100%;
+min-width: 320px;
+float: left;
+	font-size: 11px;
+	letter-spacing: 0px;
+	margin: 10px 0px 10px 0px;
+	width: 100%;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	height: 80px;
+}
+
+#infocontacto {
+
+	font-size: 9px;
+	float: right;
+	margin: 5px 20px 0px 10px;
+	display:none;
+}
+
+#nav ul {
+	width: 100%;
+		padding: 0px;
+		list-style: none;
+		
+
+	}
+
+	#nav ul li{
+
+		text-align: center;
+		vertical-align: center;
+		color: #181819;
+		float: none;
+		display: block;
+		margin: 0px 20px 10px 0px; 
+		list-style: none;
+		text-decoration: none;
+	}
+
+
+
+	#nav a:hover {
+	color:#E8E8E8;
+	text-decoration: none;
+
+	}
+
+	#nav a:visited{
+	color: #181819;
+	text-decoration: none;
+	}
+
+#slider{
+width: 100%;
+
+float: left;
+margin: 20px auto;
+
+
+	}
+
+	#slider img{
+		width: 100%;
+		height: auto;
+		float: left;
+		min-width: 310px
+	
+	}
+
+	#proyectoinfo{
+
+	min-width: 240px;
+
+		
+		color: #181819;
+		font-size: 11px;
+		margin: 0px 20px 0px 5px;
+float:right;
+
+}
+
+
+#cc{
+		float: left;
+		
+		margin: 20px 10px 0px;
+
+	}
+
+#footer{
+		
+		background-color: #EBEBEB;
+		margin: 0px auto;
+		max-width: 1000px;
+		min-width: 320px;
+		height: 100px;
+		
+	}
+
+	#footerinfo{
+
+		float: left;
+		color: #181819;
+		display: block;
+		font-family: 'Courier';
+		font-size: 8px;
+		margin: 20px 10px 10px 0px;
+		width: 30%;
+		padding-left: 20px;
+
+}
+
+#infocontactofooter {
+
+font-family: 'Courier';
+color: #181819;
+	font-size: 8px;
+	float: right;
+	margin: 20px 5px 0px 0px;
+	width: 25%;
+	visibility: visible;
+}
+
+}
+	
